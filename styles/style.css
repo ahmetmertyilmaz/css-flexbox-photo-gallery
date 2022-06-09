@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /*?*/
 }
 
 body {
@@ -17,8 +18,8 @@ body {
 #gallery img {
     width: 25%;
     height: 300px;
-    object-fit: cover;
     /*This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit.*/
+    object-fit: cover;
     margin-top: 8px;
     padding: 0 4px;
     border-radius: 10px;
